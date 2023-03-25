@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #1F2937;
+    color: white;
+    font-weight: 600;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.container {
+    background-color: #3557bd;
+    color: white;
+    font-size: 30px;
+    padding: 2em 4em;
+    gap: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome {
+    font-weight: 900;
+}
+.subtext {
+    font-size: 15px;
+    font-weight: 100;
+}
+button {
+    background-color: #0a32d1;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 3px 15px;
+}
+.container img {
+    display: inline-block;
+    width: 20em;
+    height: auto;
+}
+
+
+.containertwo {
+    display: block;
+    text-align: center;
+    padding: 3em;
+    font-weight: 900;
+    font-size: larger;
+}
+.servicelinks {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    padding-top: 1em;
+    font-size: medium;
+    font-weight: 100;
+    padding-top: 2em;
+}
+.service img {
+    height: 150px;
+    width: 150;
+    border-radius: 5px;
+}
+
+
+.containerthree {
+    text-align: center;
+    padding: 5em;
+    background-color: #e5e7eb;
+    font-style: italic;
+    font-size: large;
+}
+.author {
+    font-style: normal;
+    font-weight: 700;
+    font-size: medium;
+    padding-top: 1em;
+}
+
+
+.containerfour {
+    padding: 3em 12em;
+    color: white;
+}
+.subcontainer {
+    background-color: #489ad9;
+    border-radius: 5px;
+    padding: 4em;
+    display: flex;
+    justify-content: center;
+    gap: 8em;
+}
+.quotetitle {
+    flex-direction: column;
+    font-weight: 700;
+    font-size: larger;
+}
+.quotetext {
+    font-weight: 100;
+    font-size: medium;
+}
+
+
+.footer {
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 15px;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin-bottom: 0;
+}
